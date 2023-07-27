@@ -67,7 +67,7 @@
                         <h2 class="text-xl md:text-2xl lg:text-3xl font-extrabold text-white">Fruit Burst</h2>
                     </div>
                     <div class="form-control hidden md:flex-row lg:flex">
-                      <input type="text" placeholder="Search Here" class="input input-bordered w-24 md:w-auto rounded-full" />
+                      <input type="text" placeholder="Search Here " class="input input-bordered w-24 md:w-auto rounded-full" />
                     </div>
                    
                       <label tabindex="0" class="btn btn-ghost lg:hidden ml-auto">
@@ -100,14 +100,14 @@
                   <img src="./images/fruit4.png" alt="fruit 1">
                   <img src="./images/fruit5.png" alt="fruit 1">
               </section>
-              <!-- deal section -->
+              <!-- deal of date section -->
               <div class="deal flex flex-col md:flex-row  gap-24 container mx-container px-4 md:px-14 py-8 w-[100%] mx-auto lg:px-24 ">
-                  <div class="text-content">
+                  <div class="text-content  text-center">
                     <h2 class="text-3xl">Deal of the day</h2>
                     <p class="text-base max-w-[615px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                   </div>
-                  <div class="date-time">
-                    <div class="flex gap-5">
+                  <div class="date-time text-center mx-auto items-center">
+                    <div class="flex gap-">
                       <div>
                         <span class="countdown font-mono text-4xl">
                           <span style="--value:29 ;" ></span>
@@ -155,12 +155,12 @@
                       <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     </div>
                     <div class="card-actions">
-                      <p class="text-nav-color">Details</p>
+                      <p class="text-nav-color cursor-pointer">Details</p>
                       
                     </div>
                   </div>
                 </div>
-                <div class="card w-64 bg-base-100 shadow-xl">
+                <div class="card w-[100%] md:w-64 bg-base-100 shadow-xl">
                   <figure class="px-10 pt-10">
                     <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
                   </figure>
@@ -175,11 +175,11 @@
                       <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     </div>
                     <div class="card-actions">
-                      <p class="text-nav-color">Details</p>
+                      <p class="text-nav-color cursor-pointer">Details</p>
                     </div>
                   </div>
                 </div>
-                <div class="card w-64 bg-base-100 shadow-xl">
+                <div class="card w-[100%] md:w-64 bg-base-100 shadow-xl">
                   <figure class="px-10 pt-10">
                     <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
                   </figure>
@@ -194,11 +194,11 @@
                       <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     </div>
                     <div class="card-actions">
-                      <p class="text-nav-color">Details</p>
+                      <p class="text-nav-color cursor-pointer">Details</p>
                     </div>
                   </div>
                 </div>
-                <div class="card w-64 bg-base-100 shadow-xl">
+                <div class="card w-[100%] md:w-64 bg-base-100 shadow-xl">
                   <figure class="px-10 pt-10">
                     <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
                   </figure>
@@ -213,7 +213,28 @@
                       <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     </div>
                     <div class="card-actions">
-                      <p class="text-nav-color">Details</p>
+                      <p class="text-nav-color cursor-pointer"></p>
+                      <!-- Open the modal using ID.showModal() method -->
+                    <button class="text-nav-color" onclick="my_modal_5.showModal()">Details</button>
+                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                      <form method="dialog" class="modal-box">
+                        <img class="mx-auto" src="./images/fruit9.png" alt="fruit">
+                        <h3 class="font-bold text-lg">Banana</h3>
+                        <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <div class="rating">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <div class="modal-action mx-auto">
+                          <!-- if there is a button in form, it will close the modal -->
+                          <button class="border border-indigo-600 px-4 py-2">Buy Now</button>
+                          <button class="border border-indigo-600 px-4 py-2">Close</button>
+                        </div>
+                      </form>
+                    </dialog>
                     </div>
                   </div>
                 </div>
@@ -235,18 +256,18 @@
                 <section class="container max-auto flex flex-col md:flex-row  gap-8 max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 items-center ">
                   <div class="member-box items-cener center md:w-64 ">
                     <img src="./images/member1.png" alt="member">
-                  <h4 class="text-2xl text-white center items-center">Awlad Hossain</h4>
-                  <p class="text-base text-white center items-center">Fruits Expert</p>
-                  <div class="flex gap-3 center items-center">
-                    <img class="center items-center" src="./icons/facebook 1.png" alt="fb">
-                    <img class="center items-center" src="./icons/twitter (1) 1.png" alt="fb">
-                    <img class="center items-center" src="./icons/linkedin 1.png" alt="fb">
+                  <h4 class="text-2xl text-white text-center center items-center">Awlad Hossain</h4>
+                  <p class="text-base text-white text-center center items-center">Fruits Expert</p>
+                  <div class="flex gap-3 center items-center text-center center">
+                    <img class="text-center center items-center" src="./icons/facebook 1.png" alt="fb">
+                    <img class="text-center center items-center" src="./icons/twitter (1) 1.png" alt="fb">
+                    <img class="text-center center items-center" src="./icons/linkedin 1.png" alt="fb">
                   </div>
                   </div>
                   <div class="member-box items-cener center md:w-64 ">
                     <img src="./images/member2.png" alt="member">
-                  <h4 class="text-2xl text-white center items-center">Awlad Hossain</h4>
-                  <p class="text-base text-white center items-center">Fruits Expert</p>
+                  <h4 class="text-2xl text-white text-center center items-center">Awlad Hossain</h4>
+                  <p class="text-base text-white text-center center items-center">Fruits Expert</p>
                   <div class="flex gap-3 center items-center">
                     <img class="center items-center" src="./icons/facebook 1.png" alt="fb">
                     <img class="center items-center" src="./icons/twitter (1) 1.png" alt="fb">
@@ -255,8 +276,8 @@
                   </div>
                   <div class="member-box items-cener center md:w-64  ">
                     <img src="./images/member3.png" alt="member">
-                  <h4 class="text-2xl text-white center items-center">Awlad Hossain</h4>
-                  <p class="text-base text-white center items-center">Fruits Expert</p>
+                  <h4 class="text-2xl text-white text-center center items-center">Awlad Hossain</h4>
+                  <p class="text-base text-white text-center center items-center">Fruits Expert</p>
                   <div class="flex gap-3 center items-center">
                     <img class="center items-center" src="./icons/facebook 1.png" alt="fb">
                     <img class="center items-center" src="./icons/twitter (1) 1.png" alt="fb">
@@ -265,9 +286,9 @@
                   </div>
                   <div class="member-box items-cener center md:w-64  ">
                     <img src="./images/member4.png" alt="member">
-                  <h4 class="text-2xl text-white center items-center">Awlad Hossain</h4>
-                  <p class="text-base text-white center items-center">Fruits Expert</p>
-                  <div class="flex gap-3 center items-center">
+                  <h4 class="text-2xl text-white text-center center items-center">Awlad Hossain</h4>
+                  <p class="text-base text-white text-center center items-center">Fruits Expert</p>
+                  <div class="flex gap-3 center items-center ">
                     <img class="center items-center" src="./icons/facebook 1.png" alt="fb">
                     <img class="center items-center" src="./icons/twitter (1) 1.png" alt="fb">
                     <img class="center items-center" src="./icons/linkedin 1.png" alt="fb">
@@ -299,21 +320,21 @@
                         <p class="text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                       </div>
-                      <div class="why-box  flex flex-row gap-4">
+                      <div class="flex flex-col md:flex-row gap-4 items-center">
                         <div class="why-img text-3xl py-4 w-24">
-                          <img class="" src="./icons/love 1.png" alt="group">
+                          <img class="bg-gray-300 md:bg-transparent rounded-full p-5 md:p-0 items-center" src="./icons/love 1.png" alt="group">
                         </div>
-                        <div class="content">
+                        <div class="flex flex-col md:items-start items-center">
                           <h4 class="text-2xl text-bold  ">Dedicated Team</h4>
                           <hr class="w-28 h-1 bg-black font-extrabold my-3">
                         <p class="text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                       </div>
-                      <div class="why-box  flex flex-row gap-4">
+                      <div class="flex flex-col md:flex-row gap-4 items-center">
                         <div class="why-img text-3xl py-4 w-24">
-                          <img class="" src="./icons/gift-box 1.png" alt="group">
+                          <img class="bg-gray-300 md:bg-transparent rounded-full p-5 md:p-0 items-center"  src="./icons/gift-box 1.png" alt="group">
                         </div>
-                        <div class="content">
+                        <div class="flex flex-col md:items-start items-center">
                           <h4 class="text-2xl text-bold  ">Dedicated Team</h4>
                           <hr class="w-28 h-1 bg-black font-extrabold my-3">
                         <p class="text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
@@ -322,35 +343,35 @@
                     </div>
                     <!-- image section -->
                     <div class="image-section my-3 flex-1 hidden md:block">
-                      <img src="./icons/Rectangle 7 (1).png" alt="image">
+                      <img class="bg-gray-300 md:bg-transparent rounded-full p-5 md:p-0 items-center"  src="./icons/Rectangle 7 (1).png" alt="image">
                     </div>
                     <!-- right side -->
                     <div class="right-side gird grid-flow-col gap-4 text-left-left  flex-1">
-                      <div class=" flex flex-col md:flex-row  gap-4">
+                      <div class="flex flex-col md:flex-row  gap-4 items-center">
                         <div class="why-img text-3xl py-4 w-24">
-                          <img class="" src="./icons/group 1.png" alt="group">
+                          <img class="bg-gray-300 md:bg-transparent rounded-full p-5 md:p-0 items-center"  src="./icons/group 1.png" alt="group">
                         </div>
-                        <div class="content">
+                        <div class="flex flex-col md:items-start items-center">
                           <h4 class="text-2xl text-bold  ">Dedicated Team</h4>
                           <hr class="w-28 h-1 bg-black font-extrabold my-3">
                         <p class="text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                       </div>
-                      <div class="why-box  flex flex-row gap-4">
+                      <div class="flex flex-col md:flex-row gap-4 items-center">
                         <div class="why-img text-3xl py-4 w-24">
-                          <img class="" src="./icons/love 1.png" alt="group">
+                          <img class="bg-gray-300 md:bg-transparent rounded-full p-5 md:p-0 items-center"  src="./icons/love 1.png" alt="group">
                         </div>
-                        <div class="content">
+                        <div class="flex flex-col md:items-start items-center">
                           <h4 class="text-2xl text-bold  ">Dedicated Team</h4>
                           <hr class="w-28 h-1 bg-black font-extrabold my-3">
                         <p class="text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                       </div>
-                      <div class="why-box  flex flex-row gap-4">
+                      <div class="flex flex-col md:flex-row gap-4 items-center">
                         <div class="why-img text-3xl py-4 w-24">
-                          <img class="" src="./icons/gift-box 1.png" alt="group">
+                          <img class="bg-gray-300 md:bg-transparent rounded-full p-5 md:p-0 items-center"  src="./icons/gift-box 1.png" alt="group">
                         </div>
-                        <div class="content">
+                        <div class="flex flex-col md:items-start items-center">
                           <h4 class="text-2xl text-bold  ">Dedicated Team</h4>
                           <hr class="w-28 h-1 bg-black font-extrabold my-3">
                         <p class="text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
