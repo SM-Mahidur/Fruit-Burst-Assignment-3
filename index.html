@@ -40,40 +40,34 @@
         <header>
                 <nav class="container mx-auto px-4 md:px-14 py-8 flex ">
                   <div class="navbar bg-nav-color rounded-full">
-                    <div class="flex gap-8 space-x-4" >
-                      <div class="dropdown">
-                        
-                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 shadow bg-base-100 rounded-box w-52">
-                          <li><a>Home</a></li>
-                          <li><a>About Us</a></li>
-                          <li><a>Shop</a></li>
-                          <li><a>All Fruits</a></li>
-                        </ul>
-                        
-                      </div>
-                      
-                    </div>
                     <div class=" hidden md:flex-row lg:flex">
                       <ul class="menu menu-horizontal text-white font-3 ml-2 md:ml-3 lg:ml-5">
                         <li><a>Home</a></li>
                         <li><a>About Us</a></li>
                         <li><a>Shop</a></li>
                         <li><a>All Fruits</a></li>
-                      </ul>
-                      
+                      </ul>                 
                     </div>
                     <div class="flex gap-2 md:gap-3 lg:gap-6 mx-3 md:mx-6 lg:mx-28">
                         <img src="./images/logo.png" alt="logo">
                         <h2 class="text-xl md:text-2xl lg:text-3xl font-extrabold text-white">Fruit Burst</h2>
-                    </div>
-                    <div class="form-control hidden md:flex-row lg:flex">
-                      <input type="text" placeholder="Search Here " class="input input-bordered w-24 md:w-auto rounded-full" />
-                    </div>
-                   
-                      <label tabindex="0" class="btn btn-ghost lg:hidden ml-auto">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                      </label>
-                   
+                    </div>                   
+                      <div class="form-control hidden md:flex-row lg:flex">
+                        <input type="text" placeholder="Search Here " class="input input-bordered w-24 md:w-auto rounded-full" />
+                      </div>
+                      <div class="flex gap-8 space-x-8 ml-auto" >
+                        <div class="dropdown">
+                          <label tabindex="0" class="btn btn-ghost lg:hidden ml-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                          </label>
+                          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                          </ul>   
+                        </div>
+                      </div>
                   </div>
                 </nav>
         </header>
@@ -161,7 +155,7 @@
                     <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
                       <form method="dialog" class="modal-box">
                         <img class="mx-auto" src="./images/fruit6.png" alt="fruit">
-                        <h3 class="font-bold text-lg">Banana</h3>
+                        <h3 class="font-bold text-lg">Apple</h3>
                         <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         <div class="rating">
                           <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
