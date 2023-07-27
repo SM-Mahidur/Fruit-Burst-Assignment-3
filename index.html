@@ -101,7 +101,7 @@
                   <img src="./images/fruit5.png" alt="fruit 1">
               </section>
               <!-- deal section -->
-              <div class="deal flex flex-col md:flex-row  gap-24 container mx-container px-4 md:px-14 py-8 max-w-screen-xl mx-auto lg:px-24 ">
+              <div class="deal flex flex-col md:flex-row  gap-24 container mx-container px-4 md:px-14 py-8 w-[100%] mx-auto lg:px-24 ">
                   <div class="text-content">
                     <h2 class="text-3xl">Deal of the day</h2>
                     <p class="text-base max-w-[615px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -139,8 +139,8 @@
                   </div>
               </div>
               <!-- deal of day card -->
-              <div class="container mx-container px-4 md:px-14 py-8 flex flex-col md:flex-row items-center gap-8">
-                <div class="card w-64 bg-base-100 shadow-xl">
+              <div class="container mx-container px-2 md:px-8 py-8 flex flex-col md:flex-row items-center gap-8">
+                <div class="card w-[100%] md:w-64 bg-base-100 shadow-xl">
                   <figure class="px-10 pt-10">
                     <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
                   </figure>
@@ -223,7 +223,7 @@
               <!-- meet up section  -->
               <section class="met-team ">
                 <div class="container mx-container px-4 md:px-14 opacity-15 max-w-screen-xl mx-automd:px-16 lg:px-24 ">
-                  <div class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-32 py-32 my-10 center   shadow-transparent  text-white" style="background-image: url('./images/banner3.png');">
+                  <div class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-32 py-32 my-10 center bg-no-repeat bg-cover shadow-transparent  text-white" style="background-image: url('./images/banner3.png');">
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-center text-neutral-content">
                       <div class="max-w-md mt-[-100px]">
@@ -280,22 +280,20 @@
                
                 <!-- why chose us section  -->
                 <div class="py-8 max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 ">
-                 <div class="w-[600px] mx-auto max-auto">
+                 <div class="w-[100%] md:w-[600px] mx-auto text-center">
                   <h2 class="text-3xl text-bold ">Why Choose Us</h2>
                   <p class="text-sm text-black my-4">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                  </div>
                  <div class="image-section my-3 flex-1 md:hidden">
                   <img src="./icons/Rectangle 7 (1).png" alt="image">
                 </div>
-                  <div class="why-parent-box container max-auto flex gap-4">
+                  <div class="why-parent-box container max-auto flex flex-col md:flex-row gap-4">
                     <div class="left-side gird grid-flow-col flex-1">
-
-
-                      <div class="why-box  flex flex-row gap-4">
-                        <div class="why-img text-3xl py-4 w-24">
-                          <img class="" src="./icons/group 1.png" alt="group">
+                      <div class="why-box  flex flex-col md:flex-row gap-4 items-center ">
+                        <div class="text-3xl py-4 md:w-24 ">
+                          <img class="bg-gray-300 md:bg-transparent rounded-full p-5 md:p-0" src="./icons/group 1.png" alt="group">
                         </div>
-                        <div class="content">
+                        <div class="flex flex-col md:items-start items-center">
                           <h4 class="text-2xl text-bold  ">Dedicated Team</h4>
                           <hr class="w-28 h-1 bg-black font-extrabold my-3">
                         <p class="text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
@@ -321,15 +319,14 @@
                         <p class="text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                       </div>
-
-                      <!-- image section -->
                     </div>
-                    <div class="image-section my-3 flex-1">
+                    <!-- image section -->
+                    <div class="image-section my-3 flex-1 hidden md:block">
                       <img src="./icons/Rectangle 7 (1).png" alt="image">
                     </div>
                     <!-- right side -->
                     <div class="right-side gird grid-flow-col gap-4 text-left-left  flex-1">
-                      <div class="why-box  flex flex-row gap-4">
+                      <div class=" flex flex-col md:flex-row  gap-4">
                         <div class="why-img text-3xl py-4 w-24">
                           <img class="" src="./icons/group 1.png" alt="group">
                         </div>
@@ -375,7 +372,7 @@
                 <img src="./images/logo.png" alt="logo">
                 <h1 class="text-3xl">Fruit Burst</h1>
               </div> 
-              <div class="flex gap-12 ">
+              <div class="flex flex-wrap justify-center gap-12 ">
                 <a class="link link-hover">Home</a>
                 <a class="link link-hover">About Us</a>
                 <a class="link link-hover">Shop</a>
