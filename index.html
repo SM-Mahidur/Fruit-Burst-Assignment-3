@@ -155,8 +155,28 @@
                       <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     </div>
                     <div class="card-actions">
-                      <p class="text-nav-color cursor-pointer">Details</p>
-                      
+                      <p class="text-nav-color cursor-pointer"></p>
+                       <!-- Open the modal using ID.showModal() method -->
+                    <button class="text-nav-color" onclick="my_modal_5.showModal()">Details</button>
+                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                      <form method="dialog" class="modal-box">
+                        <img class="mx-auto" src="./images/fruit6.png" alt="fruit">
+                        <h3 class="font-bold text-lg">Banana</h3>
+                        <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <div class="rating">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <div class="modal-action mx-auto ">
+                          <!-- if there is a button in form, it will close the modal -->
+                          <button class="border border-nav-color px-4 py-2 mx-auto color-nav-color hover:bg-nav-color hover:text-white  ">Buy Now</button>
+                          <button class="border border-nav-color px-4 py-2 mx-auto color-nav-color hover:bg-nav-color hover:text-white  ">Close</button>
+                        </div>
+                      </form>
+                    </dialog>
                     </div>
                   </div>
                 </div>
@@ -213,28 +233,8 @@
                       <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     </div>
                     <div class="card-actions">
-                      <p class="text-nav-color cursor-pointer"></p>
-                      <!-- Open the modal using ID.showModal() method -->
-                    <button class="text-nav-color" onclick="my_modal_5.showModal()">Details</button>
-                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-                      <form method="dialog" class="modal-box">
-                        <img class="mx-auto" src="./images/fruit9.png" alt="fruit">
-                        <h3 class="font-bold text-lg">Banana</h3>
-                        <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                        <div class="rating">
-                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                        </div>
-                        <div class="modal-action mx-auto">
-                          <!-- if there is a button in form, it will close the modal -->
-                          <button class="border border-indigo-600 px-4 py-2">Buy Now</button>
-                          <button class="border border-indigo-600 px-4 py-2">Close</button>
-                        </div>
-                      </form>
-                    </dialog>
+                      <p class="text-nav-color cursor-pointer">Details</p>
+                     
                     </div>
                   </div>
                 </div>
@@ -343,7 +343,7 @@
                     </div>
                     <!-- image section -->
                     <div class="image-section my-3 flex-1 hidden md:block">
-                      <img class="bg-gray-300 md:bg-transparent rounded-full p-5 md:p-0 items-center"  src="./icons/Rectangle 7 (1).png" alt="image">
+                      <img class="bg-gray-300 md:bg-transparent  p-5 md:p-0 items-center"  src="./icons/Rectangle 7 (1).png" alt="image">
                     </div>
                     <!-- right side -->
                     <div class="right-side gird grid-flow-col gap-4 text-left-left  flex-1">
